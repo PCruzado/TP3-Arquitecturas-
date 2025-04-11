@@ -16,8 +16,3 @@ Esta aplicación está desarrollada en base a la arquitectura de 3 capas, separa
 - **Mantenibilidad**: es más fácil modificar una sola parte (por ejemplo, cambiar la forma de almacenar los datos) sin tocar todo el sistema.
 - **Reutilización**: la lógica puede ser usada por otras interfaces (por ejemplo, una API o app móvil).
 - **Testing más simple**: se pueden probar las funciones de lógica o de datos por separado, sin necesidad de levantar el servidor.
-
-## Cómo probar
-
-1. Ejecutá `main.py` con Python.
-2. Usá Postman o curl para enviar POST a `/agregar` y GET a `/listar`.
